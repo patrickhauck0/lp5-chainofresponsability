@@ -2,7 +2,7 @@ package org.example.chainofresponsability;
 
 public class PersonagemArqueiro extends Personagem{
     public PersonagemArqueiro(Personagem main) {
-        listaFuncoes.add(TipoFuncaoTank.getTipoFuncaoTank());
+        listaFuncoes.add(TipoFuncaoDPS.getTipoFuncaoDPS());
         setPersonagemMain(main);
     }
 
